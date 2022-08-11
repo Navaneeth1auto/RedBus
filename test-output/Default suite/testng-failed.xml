@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="placingOrder.EndToEnd">
+      <class name="java_practice.ExceptionHandling">
         <methods>
-          <include name="browserSetup"/>
           <include name="test1"/>
         </methods>
-      </class> <!-- placingOrder.EndToEnd -->
+      </class> <!-- java_practice.ExceptionHandling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
